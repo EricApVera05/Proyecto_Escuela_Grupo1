@@ -84,3 +84,4 @@ insert into tbl_alumno (nom_alu, apellido1_alu, apellido2_alu, dni_alum, email_a
 ('Ana', 'Pérez', 'Martínez', '45678901A', 'anaperez@gmail.com', '623489751', 4);
 
 
+select id_alumno,nom_alu,apellido1_alu,apellido2_alu,dni_alum,email_alum,telf_alum,codi_clase from tbl_alumno inner join tbl_clase on tbl_alumno.id_clase = tbl_clase.id_clase;
