@@ -54,6 +54,23 @@ nav {
     background-color: #412c40;
 }
 
+.form_crear{
+    background-color: #412c40;
+}
+.card-body {
+    background-color: #8b578a;
+    color: white;
+}
+
+.card-header {
+    background-color: #8b578a;
+    color: white;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 2.5rem;
+}
 
 .box{
     display: flex;

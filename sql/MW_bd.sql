@@ -30,13 +30,6 @@ create table if not exists tbl_alumno(
     primary key(id_alumno),
     foreign key(id_clase) references tbl_clase(id_clase)
 );
-create table if not exists tbl_login(
-    id_login int not null auto_increment,
-    username varchar(50) not null,
-    password varchar(50) not null,
-    primary key(id_login)
-);
-insert into tbl_login (username, password) values ('admin','admin');
 
 -- Inserts para profesores
 insert into tbl_profesor (nom_prof, apellido1_prof, apellido2_prof, dni_prof, email_prof, telf_prof) values 

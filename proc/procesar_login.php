@@ -1,6 +1,6 @@
 <?php
 
-$is_invalid = false;
+$login = false;
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     
@@ -23,8 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         if ($_POST["password"] == $user["password"]) {
             
             session_start();
-            $_SESSION["user_id"] = $user["id"]; 
-            
+            $_SESSION["loginok"] = $login;
             header("Location: ../view/tablas.php");
             exit;
         }

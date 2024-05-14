@@ -3,7 +3,7 @@
 $host = "localhost";
 $dbname = "proyecto_escuela";
 $username = "root";
-$password = "Apariciovera2005.";
+$password = "qazQAZ123";
 
 try {
     // Corregimos la cadena de conexión
